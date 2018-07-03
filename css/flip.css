@@ -1,0 +1,41 @@
+.tile {
+	padding: 5%;
+	margin: 5%;
+	height: 33vh;
+	transform-style: preserve-3d;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	/* drop shadow */
+	-webkit-box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.27);
+	-moz-box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.27);
+	box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.27);
+}
+
+.tile-img {
+	background-color: red;
+	transform: translateZ(30px);
+	width: 110%;
+	margin-left: -5%;
+	margin-top: 5%;
+	height: 16.5vh;
+	padding-bottom: 5%;
+}
+
+.tile-img img {
+	background-position: center;
+	background-size: cover;
+}
+
+.tile-desc {
+	color: black;
+	margin-top: 5%;
+}
+
+.tile-title {
+	color: black;
+	font-size: larger;
+}
